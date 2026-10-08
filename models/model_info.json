@@ -1,0 +1,35 @@
+{
+  "selected_model": "Random Forest",
+  "churn_threshold_days": 60,
+  "features": [
+    "recency",
+    "frequency",
+    "monetary",
+    "avg_order_value",
+    "avg_quantity",
+    "customer_lifetime_days"
+  ],
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  },
+  "all_model_metrics": {
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    },
+    "XGBoost": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    }
+  }
+}
